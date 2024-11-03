@@ -9,6 +9,10 @@ $ pip install opencv-python numpy onnxruntime supervision click pandas
 
 Run inference with the CLI
 
+- Create a directory named `data` and place some images within it
+- Create a directory named `work_dirs` and place your detection model ONNX file within it
+- Create a script named `run.sh` with the content shown below and run this script.
+
 ```bash
 python cli.py inference \
     --image-folder ./data \
