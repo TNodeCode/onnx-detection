@@ -4,7 +4,7 @@
 
 ```bash
 $ conda create -y -n onnx-inference python==3.10 pip
-$ pip install opencv-python numpy onnxruntime supervision click pandas
+$ pip install -r requirements.txt
 ```
 
 Run inference with the CLI
