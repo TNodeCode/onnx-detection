@@ -6,12 +6,14 @@
 # website: http://jupyter.org/
 
 data/
+output/
 work_dirs/
 *.jpg
 *.onnx
 *.png
+*.sh
 
-
+.DS_Store
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
 
